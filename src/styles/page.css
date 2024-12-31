@@ -1,0 +1,33 @@
+
+
+#comments-view {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    background-color: gray;
+    flex-direction: row;
+
+    
+}
+
+#close-comments-button {
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    opacity: 0.6;
+    display: flex;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 5%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+::after {
+    content: "\00002716";
+    font-size: 30px;
+}
